@@ -185,6 +185,7 @@ public class NewFriendDialogue extends javax.swing.JDialog {
     private void okButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_okButtonActionPerformed
         // TODO add your handling code here:
         System.out.println("New friend created");
+        System.out.println("Trying to push"); //added code for push
         main.FriendDataHandler(firstNameTextField.getText(), lastNameTextField.getText(), birthdayDateChooser.getText(), commentTextArea.getText());
         main.UpdateFriendsList();
         this.dispose();
