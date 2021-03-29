@@ -187,6 +187,7 @@ public class NewFriendDialogue extends javax.swing.JDialog {
         System.out.println("New friend created");
         System.out.println("Trying to push"); //added code for push
         System.out.println("Steven");
+        System.out.println("Michael");
         main.FriendDataHandler(firstNameTextField.getText(), lastNameTextField.getText(), birthdayDateChooser.getText(), commentTextArea.getText());
         main.UpdateFriendsList();
         this.dispose();
